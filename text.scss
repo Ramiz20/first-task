@@ -18,7 +18,7 @@ body {
   width: 700px;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: linear-gradient(125deg, #71b7e6, #9b59b6);
+  box-shadow: 0 0 10px black;
   & .heading {
     font-size: 25px;
     font-weight: 500;
@@ -49,6 +49,7 @@ body {
       padding-left: 10px;
       border-radius: 6px;
       border: 1px solid #ccc;
+      box-shadow: 0 2px 0 #71b7e6, ;
     }
   }
   & .radio {
